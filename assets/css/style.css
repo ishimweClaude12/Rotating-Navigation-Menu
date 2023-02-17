@@ -1,0 +1,41 @@
+*{
+   
+    box-sizing: border-box;
+}
+body{
+    
+    
+    justify-content: center;
+    align-items: center;
+    background-color: #f6f6f6;
+
+}
+.container{
+    margin: 0 auto ;
+    padding: 5px 2rem;
+    max-width: 100%;
+    width: 960px;
+    color: #000;
+    background-color: #fff;
+    
+
+}
+.button-wrapper{
+    position: fixed;
+    background-color: rgb(65, 64, 64);
+    border-radius: 50%;
+    width: 10rem;
+    height: 10rem;
+    top: -50px;
+    left: -50px;
+}
+.button-wrapper .btn{
+    position: absolute;
+    top: 90px;
+    left: 90px;
+}
+.btn i{
+    border: none;
+    font-size: 14px;
+    background-color: transparent;
+}
